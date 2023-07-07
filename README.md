@@ -5,7 +5,15 @@ In this project, you will get the chance to practice object relationships in Pyt
 ## Introduction
 Welcome to your first day at the Flatiron Mifflin Paper Company. As the Assistant to the Regional Manager, your job is to implement the new Office Management System for both the employees and their managers. Since Michael (your boss) has personally tasked you with this job, you can't disappoint.
 
----
+
+
+## Installation
+
+`pipenv install` will make sure we have ipdb included in our environment.  
+`pipenv shell` allows us access to that environment.  
+
+
+
 ## Setup (Code)
 Your goal is to build out all of the methods listed in the deliverables. 
 
@@ -13,7 +21,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 There are **no** tests! You will need to test your code on your own!
 
----
+
 ## Domain Modeling
 First step to this problem is to consider your domain. At Flatiron Mifflin, an `Employee` can only work in one department and a `Manager` oversees only one department. There are often many `Employee`s working for one `Manager` because if there are two `Managers` to "microgement" one employee, the employee might become "aggressive", "hostile" or "difficult."
 
@@ -25,9 +33,9 @@ Here are some questions to consider:
 
 ## A note about notation
 
-When you see a '#', this means the functionality will be related to the instance, a '.', the class.
+When you see a '`#`', this means the functionality will be related to the instance, a '`.`', the class.
 
----
+
 ## Deliverables
 
 **`Manager`**
